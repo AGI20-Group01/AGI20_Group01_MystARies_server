@@ -2,8 +2,12 @@
 
 The server for the MystARies game.
 
-Instasll dependencies:
-"""npm installl"""
+### Instasll dependencies:
+```
+npm installl
+```
 
-Start server
-"""npm start"""
+#### Start server:
+```
+npm start
+```
