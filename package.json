@@ -1,0 +1,26 @@
+{
+  "name": "agi20_group01_mystaries_server",
+  "version": "1.0.0",
+  "description": "mystaris backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AGI20-Group01/AGI20_Group01_MystARies_server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AGI20-Group01/AGI20_Group01_MystARies_server/issues"
+  },
+  "homepage": "https://github.com/AGI20-Group01/AGI20_Group01_MystARies_server#readme",
+  "dependencies": {
+    "shortid": "^2.2.15",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
