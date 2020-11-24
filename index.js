@@ -36,11 +36,24 @@ io.on('connection', function(socket) {
         socket.broadcast.emit('RotateTraveler', data)
     })
 
+    socket.on('RotateWorld', function(data) {
+        socket.broadcast.emit('RotateWorld', data)
+    })
+
+    socket.on('MovePlayer', function(data) {
+        socket.broadcast.emit('MovePlayer', data)
+    })
+
+    socket.on('Ping', function(data) {
+        socket.broadcast.emit('Ping', data)
+    })
+
     socket.on('disconnect', function() {
         socket.broadcast.emit('remove', {id: userId})
         delete users[userId];
         console.log(`user ${userId} disconnect`);
     })
+
 });
 
 function createUser(socket) {
